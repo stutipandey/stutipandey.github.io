@@ -1,0 +1,210 @@
+/*************************/
+/* Styling Header */
+/*************************/
+body{
+    background: url('wer.jpg') no-repeat;
+    background-size: cover ;
+	background-attachment: fixed;
+	background-position: center center;
+    font-family: "Berlin Sans FB";
+    color: #FFFFFF;
+}
+
+/*header{*/
+
+	/*overflow: hidden;*/
+/*}*/
+
+/*#top-header{*/
+
+	/*text-align: center;*/
+	/*height: 40px;*/
+/*}*/
+
+/****************/
+/* Styling Logo */
+/****************/
+#logo{
+	float: left;
+	padding: none;
+	margin: none;
+	height: 60px;
+	width: 30%;
+	opacity: .5;
+}
+
+#logo img{
+	width: 20%;
+	float: left;
+	padding: 10px 10px;
+	background-color: black;
+}
+
+/***************************/
+/* Styling Navigation Menu */
+/***************************/
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+    opacity: .8;
+}
+
+li a {
+	text-align: center;
+	float: right;
+	margin: none;
+	background-color: black;
+	opacity: .5;
+	padding: 10px;
+    color: white;
+	line-height: 40px;
+
+}
+li a:hover {
+	background-color:purple ;
+	color:white;
+}
+
+
+
+
+
+/**********************************/
+/* Styling Main content Section 1 */
+/**********************************/
+#welcome
+{ overflow: hidden;
+	width: 1000px;
+	margin: 0px auto;
+}
+
+#welcome .title{
+	margin-top: 20px;
+	padding: 20px;
+	text-align: center;
+	color: black;
+	font-family: "Droid Serif";
+}
+
+#welcome p{
+	margin-bottom: 40px;
+	text-align: center;
+	color: lightslategrey;
+	font-family: "Bell MT";
+	font-size: large;
+}
+#stu{
+	float:left;
+	position:relative;
+	left: 100px;
+}
+#nit{
+	float:left;
+	position: relative;
+	left: 300px;
+}
+
+#center{
+	overflow: hidden;
+	width: 1000px;
+	margin: 0px auto;
+}
+#center .heading{
+	text-align: left;
+	margin-top: 20px;
+	padding: 0px;
+	color: white;
+	font-family: "Agency FB";
+}
+#center p {
+	margin-bottom: 40px;
+	text-align: left;
+	color: lightslategrey;
+	font-family: "Bell MT";
+	font-size: large;
+}
+
+#new{
+	overflow: hidden;
+	width: 1000px;
+	margin: 0px auto;
+	text-align: left;
+}
+
+#new p {
+	margin-bottom: 40px;
+	text-align: -webkit-left;
+	color: lightslategrey;
+	font-family: "Bell MT";
+}
+
+#new .newer {
+	text-align: left;
+	margin-top: 20px;
+	padding: 0px;
+	color: white;
+	font-family: "Agency FB";
+}
+
+#again .footer{
+	background-color: lightslategrey;
+	color: white;
+	text-align: center;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 20000%;
+}
+
+#S3{
+	overflow: hidden;
+	width: 500px;
+	margin: 0px auto;
+	text-align: left;
+}
+
+#S3 .footer{
+	text-align: center;
+	margin-top: 50px;
+	padding: 0px;
+	color: white;
+	font-family: Century;
+
+}
+
+#S3 ul li {
+	margin-bottom: 40px;
+	color: lightslategrey;
+	font-family: Century;
+	opacity: .4;
+	list-style: none;
+}
+
+
+
+
+/*#ul li{*/
+
+/*}*/
+
+/*#menu li a, #menu li span{*/
+	/*display: inline-block;*/
+	/*padding: 0em 1.5em;*/
+	/*text-decoration: none;*/
+	/*font-weight: 600;*/
+	/*text-transform: uppercase;*/
+	/*line-height: 60px;*/
+/*}*/
+
+/*#menu li a{*/
+
+	/*color: #FFF;*/
+/*}*/
+
+/*#menu li:hover a, #menu li span{*/
+	/*background: #dddddd;*/
+	/*color: white;*/
+	/*border-left: 1px solid white;*/
+	/*text-decoration: none;*/
+/*}*/
